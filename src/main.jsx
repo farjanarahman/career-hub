@@ -9,6 +9,7 @@ import {
 import Home from './components/Home/Home';
 import JobDetails from './components/JobDetails/JobDetails';
 import Main from './components/Layout/Main';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -17,8 +18,19 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('category.json')
+        loader: async () => {
+          const categoryResponse = await fetch('category.json');
+          const categoryData = await categoryResponse.json();
+          const jobsResponse = await fetch('jobs.json');
+          const jobsData = await jobsResponse.json();
+      
+          return {
+            category: categoryData,
+            jobs: jobsData,
+          };
+        },
       },
+      
       {
         path: 'review',
         element: <JobDetails> </JobDetails>

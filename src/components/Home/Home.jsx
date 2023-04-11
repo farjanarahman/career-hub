@@ -1,11 +1,31 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Category from '../Category/Category';
+import Job from '../Job/Job';
+import './Home.css'
 
 const Home = () => {
-    const category = useLoaderData();
+    const {category, jobs} = useLoaderData();
+    
     return (
-        <div>
-            <h2>This is my home: {category.length}</h2>
+        <div className='home-container'>
+            <div className='category-container'>
+            {
+                category.map(categories => <Category 
+                    key = {categories.id}
+                    categories  = {categories}
+                ></Category>)
+            }
+            </div>
+            <div className='job-container'>
+                {
+                    jobs.map(job =>
+                        <Job
+                        key = {job.id}
+                        job = {job}
+                        ></Job>) 
+                }
+            </div>
         </div>
     );
 };
