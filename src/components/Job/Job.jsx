@@ -1,4 +1,5 @@
 import React from 'react';
+import './Job.css'
 
 const Job = ({job}) => {
     const {company_logo, job_title, company_name, remote_onsite, time, location, salary} = job;
