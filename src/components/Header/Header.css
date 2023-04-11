@@ -1,4 +1,4 @@
-nav a{
+/* nav a{
     margin-right: 15px;
     font-size: 16px;
     color: gray;
@@ -17,7 +17,6 @@ nav a{
     color: white;
     font-weight: bold;
     padding: 19px 28px;
-
 }
 
 .banner-left{
@@ -32,4 +31,50 @@ span{
 }
 .banner{
     display: flex;
+} */
+
+nav a{
+    color: gray;
 }
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.header-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.btn{
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    color: white;
+    font-weight: bold;
+    padding: 19px 28px;
+}
+

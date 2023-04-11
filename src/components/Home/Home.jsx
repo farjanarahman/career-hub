@@ -54,6 +54,16 @@ const Home = () => {
 
   return (
     <div className='home-container'>
+        <div className='banner'>
+                <div className='banner-left'>
+                    <h1>One Step Closer To Your <span>Dream Job</span></h1>
+                    <p>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                    <button className='btn'>Get Started</button>
+                </div>
+                <div className='banner-right'>
+                    <img src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+                </div>
+            </div>
       <div className='category-container'>
         {category.map((categories) => (
           <Category key={categories.id} categories={categories} />
