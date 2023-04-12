@@ -4,3 +4,27 @@
 p{
     text-align: left;
 }
+
+.details-container{
+    display: flex;
+}
+.details-right{
+
+}
+
+.details-left{
+    width: 55%;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.left{
+    background-color: #d8dcfb;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-d{
+    width: 100%;
+}
