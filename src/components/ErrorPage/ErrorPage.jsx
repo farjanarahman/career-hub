@@ -1,21 +1,3 @@
-// import { useRouteError } from "react-router-dom";
-// import './ErrorPage.css'
-
-// function Error() {
-//     return (
-//         <div>
-//             <h1 className="oops">Oops!</h1>
-//         <p>Sorry, an unexpected error has occurred.</p>
-//         <p>
-//       </p>
-//         </div>
-//     );
-// };
-
-// export default Error;
-
-
-
 import { Link } from "react-router-dom";
 import './ErrorPage.css';
 

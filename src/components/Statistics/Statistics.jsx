@@ -1,65 +1,65 @@
 import React, { PureComponent } from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const data = [
   {
-    id: 1,
-    name: "Assignment-1",
+    name: 'A-1',
+    mark: 57,
+  },
+  {
+    name: 'A-2',
+    mark: 53,
+  },
+  {
+    name: 'A-3',
+    mark: 49,
+  },
+  {
+    name: 'A-4',
     mark: 60,
   },
   {
-    id: 2,
-    name: "Assignment-2",
+    name: 'A-5',
     mark: 50,
   },
   {
-    id: 3,
-    name: "Assignment-3",
-    mark: 40,
-  },
-  {
-    id: 4,
-    name: "Assignment-4",
+    name: 'A-6',
     mark: 30,
   },
   {
-    id: 5,
-    name: "Assignment-5",
-    mark: 40,
-  },
-  {
-    id: 6,
-    name: "Assignment-6",
-    mark: 30,
-  },
-  {
-    id: 7,
-    name: "Assignment-7",
+    name: 'A-7',
     mark: 60,
+  },
+  {
+    name: 'A-8',
+    mark: 58,
   },
 ];
 
 export default class Example extends PureComponent {
-  static demoUrl = 'https://codesandbox.io/s/tiny-area-chart-uw0k8';
+  static demoUrl = 'https://codesandbox.io/s/dashed-line-chart-dxwzg';
 
   render() {
     return (
-      <div>
-        <h1>Assignment Marks</h1>
-          <AreaChart
-            width={800}
-            height={700}
-            data={data}
-            margin={{
-              top: 5,
-              right: 0,
-              left: 0,
-              bottom: 5,
-            }}
-          >
-            <Area type="monotone" dataKey="mark" stroke="#8884d8" fill="#8884d8" />
-          </AreaChart>
-      </div>
+        <LineChart
+          width={900}
+          height={700}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line type="monotone" stroke="#8884d8" strokeDasharray="5 5" />
+          <Line type="monotone" dataKey="mark" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
+        </LineChart>
     );
   }
 }
