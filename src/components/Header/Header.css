@@ -1,37 +1,4 @@
-/* nav a{
-    margin-right: 15px;
-    font-size: 16px;
-    color: gray;
-    font-weight: 500;
-}
 
-.nav{
-    display: flex;
-
-}
-.nav h2{
-    display: inline-block;
-}
-.btn{
-    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
-    color: white;
-    font-weight: bold;
-    padding: 19px 28px;
-}
-
-.banner-left{
-    width: 45%;
-}
-span{
-    background: linear-gradient(
-            to right, #7E90FE
-            , #9873FF);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
-.banner{
-    display: flex;
-} */
 
 nav a{
     color: gray;

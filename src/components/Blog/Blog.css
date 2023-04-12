@@ -1,0 +1,15 @@
+h1{
+    text-decoration: underline;
+}
+h3{
+    text-align: center;
+}
+
+.blog{
+    border: 1px rgb(211, 180, 246) solid;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 20px;
+    padding-top: 10px;
+}

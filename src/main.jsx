@@ -9,7 +9,9 @@ import {
 import Home from './components/Home/Home';
 import JobDetails from './components/JobDetails/JobDetails';
 import Main from './components/Layout/Main';
-
+import Statistics from './components/Statistics/Statistics'
+import Blog from './components/Blog/Blog';
+import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -31,9 +33,27 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: 'job/:id',
+        path: '/job/:id',
         element: <JobDetails></JobDetails>,
-        loader: ({params}) => fetch(`job.json/${params.id}`)
+        // loader: ({params}) => fetch(`job.json/${params.id}`)
+        loader: async ({params}) => {
+          const res = await fetch("/public/jobs.json");
+          const data = await res.json();
+          const JobDetails = data.find(job => job.id == params.id);
+          return JobDetails;
+        }
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>
+      },
+      {
+        path: '/appliedjobs',
+        element: <AppliedJobs></AppliedJobs>
       }
     ]
   }
