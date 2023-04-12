@@ -35,9 +35,9 @@ const JobDetails = () => {
             <h3>Job Details</h3>
             <hr />
             <p><FontAwesomeIcon icon={faDollarSign} className='icon-d' />
-<span className='bold'>Salary: </span>{jobs.salary}</p>
+              <span className='bold'>Salary: </span>{jobs.salary}</p>
             <p><FontAwesomeIcon icon={faCalendarAlt} className='icon-d' />
-<span className='bold'>Job Title: </span>{jobs.job_title}</p>
+              <span className='bold'>Job Title: </span>{jobs.job_title}</p>
             <h3>Contact Information</h3>
             <hr />
             <p><FontAwesomeIcon icon={faPhone} className='icon-d' />

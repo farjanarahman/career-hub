@@ -1,7 +1,7 @@
 [
     {
       "id": "1",
-      "company_logo": "/src/assets/Logo/google-1-1 1-1.png",
+      "company_logo": "/google-1-1 1.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_onsite": "Remote",
@@ -16,7 +16,7 @@
       "address": "Dhanmondi 32, Sukrabad"    },
     {
         "id": "2",
-        "company_logo": "/src/assets/Logo/netflix-4 1.png",
+        "company_logo": "/netflix-4 1.png",
         "job_title": "Senior Product Designer",
         "company_name": "Netflix",
         "remote_onsite": "Onsite",
@@ -31,7 +31,7 @@
         "address": "Dhanmondi 32, Sukrabad"    },
     {
         "id": "3",
-        "company_logo": "/src/assets/Logo/tesla-9 1.png",
+        "company_logo": "/tesla-9 1.png",
         "job_title": "Software Engineer",
         "company_name": "Tesla",
         "remote_onsite": "Onsite",
@@ -46,7 +46,7 @@
         "address": "Dhanmondi 32, Sukrabad"    },
     {
         "id": "4",
-        "company_logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "company_logo": "/google-1-1 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "remote_onsite": "Remote",
@@ -61,7 +61,7 @@
         "address": "Dhanmondi 32, Sukrabad"    },
     {
         "id": "5",
-        "company_logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "company_logo": "/google-1-1 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "remote_onsite": "Remote",
@@ -77,7 +77,7 @@
     },
     {
         "id": "6",
-        "company_logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "company_logo": "/google-1-1 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "remote_onsite": "Remote",
@@ -92,7 +92,7 @@
         "address": "Dhanmondi 32, Sukrabad"    },
     {
         "id": "7",
-        "company_logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "company_logo": "/google-1-1 1.png",
         "job_title": "Technical Database Engineer",
         "company_name": "Google LLC",
         "remote_onsite": "Remote",
