@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import './Navbar.css'
 import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
@@ -12,7 +12,7 @@ const Header = () => {
                 </div>
                 <div className='header-middle'>
                     <div className='links'>
-                        <ActiveLink to="/">Home</ActiveLink>
+                        {/* <ActiveLink to="/">Home</ActiveLink> */}
                         <ActiveLink to="/statistics">Statistics</ActiveLink>
                         <ActiveLink to="/appliedjobs">Applied Jobs</ActiveLink>
                         <ActiveLink to="/blog">Blog</ActiveLink>

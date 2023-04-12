@@ -1,0 +1,14 @@
+.category-card{
+    background-color: #f7f8fb;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+.cat-img{
+    background-color: #ebedf6;
+    padding: 8px;
+    border-radius: 5px;
+}
+.cat-name{
+    text-align: left;
+}

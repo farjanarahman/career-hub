@@ -4,9 +4,37 @@
     font-weight: bold;
     padding: 19px 28px;
 }
+.name{
+    color: gray;
+}
+.title{
+    text-align: left;
+}
 
 .job{
     border: 1px solid lightgrey;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+    text-align: left;
+
+}
+
+.time, .location{
+    display: flex;
+}
+
+.j-t{
+    border: 1px #7E90FE solid;
+    color: #7E90FE;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.icon{
+    margin-right: 5px;
+}
+
+.j-l{
+    color: gray;
+    margin-right: 10px;
 }

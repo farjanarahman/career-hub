@@ -1,11 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../Header/Header';
+import Navbar from '../Navbar/Navbar';
+// import './Main.css'
 
 const Main = () => {
     return (
-        <div>
-            <Header></Header>
+        <div className='bg'>
+            <Navbar></Navbar>
             <Outlet></Outlet>
         </div>
     );
